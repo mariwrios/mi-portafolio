@@ -119,9 +119,42 @@ body {
 }
 .inicio__planeta2 {
   position: absolute;
+  animation: planeta2 10s;
+  animation-iteration-count: infinite;
+  animation-direction: inherit;
   top: 60px;
   left: 20vw;
+  z-index: 4;
 }
+.inicio__planeta2 {
+  animation: planeta2 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes planeta2 {
+  0% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(0.8);
+  }
+}
+.inicio__planeta2:active {
+  animation: planetaa2 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes planetaa2 {
+  30% {
+    transform: scale(5) translate(50px, 80px);
+  }
+  60% {
+    transform: scale(50) translate(30px, 40px);
+  }
+}
+
 .inicio__planeta3 {
   position: absolute;
   top: -150px;
