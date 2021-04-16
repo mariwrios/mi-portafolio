@@ -150,8 +150,9 @@ body {
   30% {
     transform: scale(5) translate(50px, 80px);
   }
-  60% {
-    transform: scale(50) translate(30px, 40px);
+
+  100% {
+    transform: scale(100) translate(0px, 0px);
   }
 }
 
