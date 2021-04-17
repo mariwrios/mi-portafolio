@@ -10,11 +10,11 @@
     "index.html": "/index.html",
     "static/css/main.045d7a0f.chunk.css.map": "/static/css/main.045d7a0f.chunk.css.map",
     "static/js/2.4adcdaa3.chunk.js.LICENSE.txt": "/static/js/2.4adcdaa3.chunk.js.LICENSE.txt",
-    "static/media/nebulosa.da4db7ed.png": "/static/media/nebulosa.da4db7ed.png",
-    "static/media/planeta-1.fa4aa7c7.png": "/static/media/planeta-1.fa4aa7c7.png",
-    "static/media/planeta-2.769a021f.png": "/static/media/planeta-2.769a021f.png",
-    "static/media/planeta-3.f313016f.png": "/static/media/planeta-3.f313016f.png",
-    "static/media/planeta-4.5e846702.png": "/static/media/planeta-4.5e846702.png"
+    "static/media/nebulosa.da4db7ed.png": "./static/media/nebulosa.da4db7ed.png",
+    "static/media/planeta-1.fa4aa7c7.png": "./static/media/planeta-1.fa4aa7c7.png",
+    "static/media/planeta-2.769a021f.png": "./static/media/planeta-2.769a021f.png",
+    "static/media/planeta-3.f313016f.png": "./static/media/planeta-3.f313016f.png",
+    "static/media/planeta-4.5e846702.png": "./static/media/planeta-4.5e846702.png"
   },
   "entrypoints": [
     "static/js/runtime-main.645a0f63.js",
