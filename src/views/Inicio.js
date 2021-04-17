@@ -23,11 +23,11 @@ const Inicio = () => {
         <PcStar1 />
         <Humo />
       </div>
-      <img className="center inicio__nebulosa" src={nebulosa} />
-      <img className="center inicio__planeta1" src={planeta1} />
-      <img className="center inicio__planeta2" src={planeta2} />
-      <img className="center inicio__planeta3" src={planeta3} />
-      <img className="center inicio__planeta4" src={planeta4} />
+      <img alt="nebulosa" className="center inicio__nebulosa" src={nebulosa} />
+      <img alt="planeta1" className="center inicio__planeta1" src={planeta1} />
+      <img alt="planeta2" className="center inicio__planeta2" src={planeta2} />
+      <img alt="planeta3" className="center inicio__planeta3" src={planeta3} />
+      <img alt="planeta4" className="center inicio__planeta4" src={planeta4} />
     </div>
   )
 }
