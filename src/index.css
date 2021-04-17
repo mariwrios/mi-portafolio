@@ -36,11 +36,87 @@ body {
   transform: scale(1.6);
   opacity: 0.7;
 }
+
+.girl-Group {
+  position: relative;
+  padding: 10px;
+  height: 813px;
+  box-sizing: border-box;
+  width: 1129px;
+  bottom: -65px;
+}
 .inicio__girl {
   position: absolute;
   z-index: 1;
-  height: 85vh;
+
   bottom: -40px;
+}
+.inicio__girl-star1 {
+  z-index: 1;
+  position: absolute;
+  bottom: 140px;
+  animation: pcStar1 5s;
+  animation-iteration-count: infinite;
+  animation-direction: initial;
+}
+@keyframes pcStar1 {
+  0% {
+    opacity: 1;
+  }
+
+  10% {
+    opacity: 0;
+  }
+
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.inicio__girl-star2 {
+  z-index: 1;
+  position: absolute;
+  bottom: 140px;
+  animation: pcStar2 5s;
+  animation-iteration-count: infinite;
+  animation-direction: initial;
+}
+@keyframes pcStar2 {
+  0% {
+  }
+
+  10% {
+  }
+
+  90% {
+  }
+  100% {
+  }
+}
+
+.inicio__girl-humo {
+  position: absolute;
+  right: 151px;
+  bottom: -14px;
+  animation: humo 8s;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+}
+
+@keyframes humo {
+  0% {
+    transform: translate(0, 0px) scale(0.7);
+    filter: blur(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate(0, -130px) scale(1.3);
+    filter: blur(15);
+  }
 }
 
 .inicio__nebulosa {
@@ -116,6 +192,20 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
+  animation: planeta1 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes planeta1 {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 .inicio__planeta2 {
   position: absolute;
@@ -126,45 +216,57 @@ body {
   left: 20vw;
   z-index: 4;
 }
-.inicio__planeta2 {
-  animation: planeta2 6s;
-  animation-iteration-count: infinite;
-}
 
 @keyframes planeta2 {
   0% {
-    transform: scale(0.8);
+    transform: scale(0.9);
   }
   50% {
-    transform: scale(1.2);
+    transform: scale(1);
   }
   100% {
-    transform: scale(0.8);
-  }
-}
-.inicio__planeta2:active {
-  animation: planetaa2 3s;
-  animation-iteration-count: infinite;
-}
-@keyframes planetaa2 {
-  30% {
-    transform: scale(5) translate(50px, 80px);
-  }
-
-  100% {
-    transform: scale(100) translate(0px, 0px);
+    transform: scale(0.9);
   }
 }
 
 .inicio__planeta3 {
   position: absolute;
-  top: -150px;
-  right: -114px;
+  bottom: -190px;
+  right: -56px;
   width: 30vw;
+  animation: planeta3 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes planeta3 {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 .inicio__planeta4 {
   position: absolute;
-  bottom: -140px;
-  right: -50px;
-  width: 25vw;
+  transform: scale(0.8);
+  top: -200px;
+  right: -200px;
+  width: 30vw;
+  animation: planeta4 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes planeta4 {
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
 }

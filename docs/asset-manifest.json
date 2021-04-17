@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.77eee135.chunk.css",
+    "main.js": "/static/js/main.4e62cfac.chunk.js",
+    "main.js.map": "/static/js/main.4e62cfac.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b0ce9c2e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b0ce9c2e.js.map",
+    "static/js/2.8ba6e2ad.chunk.js": "/static/js/2.8ba6e2ad.chunk.js",
+    "static/js/2.8ba6e2ad.chunk.js.map": "/static/js/2.8ba6e2ad.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.77eee135.chunk.css.map": "/static/css/main.77eee135.chunk.css.map",
+    "static/js/2.8ba6e2ad.chunk.js.LICENSE.txt": "/static/js/2.8ba6e2ad.chunk.js.LICENSE.txt",
+    "static/media/estrellas.a26c0310.svg": "/static/media/estrellas.a26c0310.svg",
+    "static/media/girl.9f75e6e5.svg": "/static/media/girl.9f75e6e5.svg",
+    "static/media/humo.1a2b1576.svg": "/static/media/humo.1a2b1576.svg",
+    "static/media/nebulosa.b431cbb7.svg": "/static/media/nebulosa.b431cbb7.svg",
+    "static/media/pcStar.02bb8d1e.svg": "/static/media/pcStar.02bb8d1e.svg",
+    "static/media/pcStar2.07f86958.svg": "/static/media/pcStar2.07f86958.svg",
+    "static/media/planeta4.76371d96.svg": "/static/media/planeta4.76371d96.svg",
+    "static/media/planta1.dfb62162.svg": "/static/media/planta1.dfb62162.svg",
+    "static/media/planta2.976b73d2.svg": "/static/media/planta2.976b73d2.svg",
+    "static/media/planta3.58e4a080.svg": "/static/media/planta3.58e4a080.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b0ce9c2e.js",
+    "static/js/2.8ba6e2ad.chunk.js",
+    "static/css/main.77eee135.chunk.css",
+    "static/js/main.4e62cfac.chunk.js"
+  ]
+}

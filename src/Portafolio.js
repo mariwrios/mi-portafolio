@@ -6,6 +6,7 @@ import Navbar from "./components/navbar/Navbar"
 function Portafolio() {
   return (
     <div className="portafolio">
+      <Navbar />
       <Inicio />
     </div>
   )
