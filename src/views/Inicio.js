@@ -4,11 +4,12 @@ import { Girl } from "../components/imgComponents/Girl"
 import { PcStar2 } from "../components/imgComponents/PcStar2"
 import PcStar1 from "../components/imgComponents/PcStar1"
 import { Humo } from "../components/imgComponents/Humo"
-import nebulosa from "../assets/img/nebulos a.png"
+import nebulosa from "../assets/img/nebulosa.png"
 import { Planeta2 } from "../components/imgComponents/Planeta2"
-import planeta1 from "../assets/img/planeta 1.png"
-import planeta3 from "../assets/img/planeta 3.png"
-import { Planeta4 } from "../components/imgComponents/Planeta4"
+import planeta1 from "../assets/img/planeta-1.png"
+import planeta2 from "../assets/img/planeta-2.png"
+import planeta3 from "../assets/img/planeta-3.png"
+import planeta4 from "../assets/img/planeta-4.png"
 import SocialMedia from "../components/socialMedia/SocialMedia"
 
 const Inicio = () => {
@@ -24,9 +25,9 @@ const Inicio = () => {
       </div>
       <img className="center inicio__nebulosa" src={nebulosa} />
       <img className="center inicio__planeta1" src={planeta1} />
-      <Planeta2 />
+      <img className="center inicio__planeta2" src={planeta2} />
       <img className="center inicio__planeta3" src={planeta3} />
-      <Planeta4 className="center inicio__planeta4" />
+      <img className="center inicio__planeta4" src={planeta4} />
     </div>
   )
 }
