@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/mi-portafolio/static/css/main.045d7a0f.chunk.css",
+    "main.js": "/mi-portafolio/static/js/main.78caf05b.chunk.js",
+    "main.js.map": "/mi-portafolio/static/js/main.78caf05b.chunk.js.map",
+    "runtime-main.js": "/mi-portafolio/static/js/runtime-main.8024f688.js",
+    "runtime-main.js.map": "/mi-portafolio/static/js/runtime-main.8024f688.js.map",
+    "static/js/2.4adcdaa3.chunk.js": "/mi-portafolio/static/js/2.4adcdaa3.chunk.js",
+    "static/js/2.4adcdaa3.chunk.js.map": "/mi-portafolio/static/js/2.4adcdaa3.chunk.js.map",
+    "index.html": "/mi-portafolio/index.html",
+    "static/css/main.045d7a0f.chunk.css.map": "/mi-portafolio/static/css/main.045d7a0f.chunk.css.map",
+    "static/js/2.4adcdaa3.chunk.js.LICENSE.txt": "/mi-portafolio/static/js/2.4adcdaa3.chunk.js.LICENSE.txt",
+    "static/media/nebulosa.da4db7ed.png": "/mi-portafolio/static/media/nebulosa.da4db7ed.png",
+    "static/media/planeta-1.fa4aa7c7.png": "/mi-portafolio/static/media/planeta-1.fa4aa7c7.png",
+    "static/media/planeta-2.769a021f.png": "/mi-portafolio/static/media/planeta-2.769a021f.png",
+    "static/media/planeta-3.f313016f.png": "/mi-portafolio/static/media/planeta-3.f313016f.png",
+    "static/media/planeta-4.5e846702.png": "/mi-portafolio/static/media/planeta-4.5e846702.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8024f688.js",
+    "static/js/2.4adcdaa3.chunk.js",
+    "static/css/main.045d7a0f.chunk.css",
+    "static/js/main.78caf05b.chunk.js"
+  ]
+}
