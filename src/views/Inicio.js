@@ -1,33 +1,32 @@
 import React from "react"
-import estrellas from "../img/estrellas.svg"
-import nebulosa from "../img/nebulosa.svg"
-import girl from "../img/girl.svg"
-import humo from "../img/humo.svg"
-import star from "../img/pcStar.svg"
-import star2 from "../img/pcStar2.svg"
-import plat1 from "../img/planta1.svg"
-import plat2 from "../img/planta2.svg"
-import plat3 from "../img/planta3.svg"
-import plat4 from "../img/planeta4.svg"
-
+import { Stars } from "../components/imgComponents/Stars"
+import { Girl } from "../components/imgComponents/Girl"
+import { PcStar2 } from "../components/imgComponents/PcStar2"
+import PcStar1 from "../components/imgComponents/PcStar1"
+import { Humo } from "../components/imgComponents/Humo"
+import nebulosa from "../img/nebulosa.png"
+import planeta2 from "../img/planeta2.png"
+import planeta1 from "../img/planeta1.png"
+import planeta3 from "../img/planeta3.png"
+import planeta4 from "../img/planeta4.png"
 import SocialMedia from "../components/socialMedia/SocialMedia"
 
 const Inicio = () => {
   return (
     <div className="center container__home">
+      <Stars />
       <SocialMedia />
-      <img className="center  inicio__estrellas" src={estrellas} />
       <div className="girl-Group center">
-        <img className="center  inicio__girl" src={girl} />
-        <img className="center  inicio__girl-star2" src={star2} />
-        <img className="center  inicio__girl-star1" src={star} />
-        <img className="center  inicio__girl-humo" src={humo} />
+        <Girl />
+        <PcStar2 />
+        <PcStar1 />
+        <Humo />
       </div>
       <img className="center inicio__nebulosa" src={nebulosa} />
-      <img className="center inicio__planeta1" src={plat1} />
-      <img className="center inicio__planeta2" src={plat2} />
-      <img className="center inicio__planeta3" src={plat3} />
-      <img className="center inicio__planeta4" src={plat4} />
+      <img className="center inicio__planeta1" src={planeta1} />
+      <img className="center inicio__planeta2" src={planeta2} />
+      <img className="center inicio__planeta3" src={planeta3} />
+      <img className="center inicio__planeta4" src={planeta4} />
     </div>
   )
 }
