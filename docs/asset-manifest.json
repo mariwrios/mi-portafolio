@@ -10,11 +10,11 @@
     "index.html": "/mi-portafolio/index.html",
     "static/css/main.27050dc0.chunk.css.map": "/mi-portafolio/static/css/main.27050dc0.chunk.css.map",
     "static/js/2.8ba6e2ad.chunk.js.LICENSE.txt": "/mi-portafolio/static/js/2.8ba6e2ad.chunk.js.LICENSE.txt",
-    "static/media/nebulosa.da4db7ed.png": "./mi-portafolio/static/media/nebulosa.da4db7ed.png",
-    "static/media/planeta1.fa4aa7c7.png": "./mi-portafolio/static/media/planeta1.fa4aa7c7.png",
-    "static/media/planeta2.769a021f.png": "./mi-portafolio/static/media/planeta2.769a021f.png",
-    "static/media/planeta3.f313016f.png": "./mi-portafolio/static/media/planeta3.f313016f.png",
-    "static/media/planeta4.5e846702.png": "./mi-portafolio/static/media/planeta4.5e846702.png"
+    "static/media/nebulosa.da4db7ed.png": "/mi-portafolio/static/media/nebulosa.da4db7ed.png",
+    "static/media/planeta1.fa4aa7c7.png": "/mi-portafolio/static/media/planeta1.fa4aa7c7.png",
+    "static/media/planeta2.769a021f.png": "/mi-portafolio/static/media/planeta2.769a021f.png",
+    "static/media/planeta3.f313016f.png": "/mi-portafolio/static/media/planeta3.f313016f.png",
+    "static/media/planeta4.5e846702.png": "/mi-portafolio/static/media/planeta4.5e846702.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ffbd0a72.js",
