@@ -56,45 +56,6 @@ body {
   position: absolute;
   bottom: 140px;
   animation: pcStar1 5s;
-  animation-iteration-count: infinite;
-  animation-direction: initial;
-}
-@keyframes pcStar1 {
-  0% {
-    opacity: 1;
-  }
-
-  10% {
-    opacity: 0;
-  }
-
-  90% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-.inicio__girl-star2 {
-  z-index: 1;
-  position: absolute;
-  bottom: 140px;
-  animation: pcStar2 5s;
-  animation-iteration-count: infinite;
-  animation-direction: initial;
-}
-@keyframes pcStar2 {
-  0% {
-  }
-
-  10% {
-  }
-
-  90% {
-  }
-  100% {
-  }
 }
 
 .inicio__girl-humo {
@@ -209,7 +170,7 @@ body {
 }
 .inicio__planeta2 {
   position: absolute;
-  animation: planeta2 10s;
+  animation: planeta2 7s;
   animation-iteration-count: infinite;
   animation-direction: inherit;
   top: 60px;
@@ -219,13 +180,13 @@ body {
 
 @keyframes planeta2 {
   0% {
-    transform: scale(0.9);
+    transform: scale(0.8);
   }
   50% {
     transform: scale(1);
   }
   100% {
-    transform: scale(0.9);
+    transform: scale(0.8);
   }
 }
 
@@ -234,7 +195,7 @@ body {
   bottom: -190px;
   right: -56px;
   width: 30vw;
-  animation: planeta3 8s;
+  animation: planeta3 5s;
   animation-iteration-count: infinite;
 }
 

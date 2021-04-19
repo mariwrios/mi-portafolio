@@ -1,8 +1,8 @@
 import React from "react"
-import twitter from "../../assets/img/gorjeo 1.png"
-import instagram from "../../assets/img/instagram 1.png"
-import linkedin from "../../assets/img/linkedin (1) 1.png"
-import github from "../../assets/img/logotipo-de-github 1.png"
+import twitter from "../../assets/img/twitter.png"
+import instagram from "../../assets/img/instagram.png"
+import linkedin from "../../assets/img/linkedin.png"
+import github from "../../assets/img/github.png"
 
 const SocialMedia = () => {
   return (
