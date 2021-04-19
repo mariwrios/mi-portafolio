@@ -44,6 +44,7 @@ body {
   box-sizing: border-box;
   width: 1129px;
   bottom: -65px;
+  z-index: 4;
 }
 .inicio__girl {
   position: absolute;
@@ -229,5 +230,234 @@ body {
   }
   100% {
     transform: scale(0.9);
+  }
+}
+
+.inicio__cometa-1 {
+  position: absolute;
+  right: -100px;
+  top: -200px;
+  opacity: 1;
+  transform: scale(-0.5) rotate(-65deg);
+  animation: cometa 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes cometa {
+  0% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+    transform: scale(-0.7) rotate(-65deg);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(-0.3) rotate(-65deg) translate(300vh, 80vw);
+  }
+}
+
+.inicio__cometa-2 {
+  position: absolute;
+  left: -200px;
+  top: 400px;
+  opacity: 1;
+  transform: scale(0.5);
+  animation: cometa2 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes cometa2 {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+    transform: scale(0.7);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.3) translate(300vh, 80vw);
+  }
+}
+
+.girl__ojos {
+  z-index: 3;
+  position: absolute;
+  top: 200px;
+}
+
+.ojo__izquierdo-cerrado {
+  position: relative;
+  left: 100px;
+  top: 35px;
+}
+
+.ojo__izquierdo-abierto {
+  position: relative;
+  left: 35px;
+  top: -30px;
+  animation: parpadeo2 6s;
+  animation-iteration-count: infinite;
+}
+@keyframes parpadeo2 {
+  0% {
+    opacity: 1;
+  }
+  7% {
+    opacity: 1;
+  }
+  8% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  41% {
+    opacity: 0;
+  }
+  44% {
+    opacity: 1;
+  }
+}
+
+.ojo__abierto-izquierdo {
+  position: relative;
+  left: 65px;
+  top: 18px;
+}
+.ojo__pupila-izquierdo {
+  position: relative;
+  z-index: 1;
+  top: 15px;
+  right: 10px;
+  animation: pupila2 6s;
+  animation-iteration-count: infinite;
+  animation-delay: 0.5s;
+}
+@keyframes pupila2 {
+  10% {
+    top: 15px;
+    right: 15px;
+  }
+  30% {
+    top: 15px;
+    right: 6px;
+  }
+  40% {
+    top: 15px;
+    right: 15px;
+  }
+  50% {
+    top: 15px;
+    right: 6px;
+  }
+  70% {
+    top: 13px;
+    right: 10px;
+  }
+  98% {
+    top: 13px;
+    right: 10px;
+  }
+  100% {
+    top: 15px;
+    right: 10px;
+  }
+}
+
+.ojo__derecho-cerrado {
+  position: relative;
+  left: 0px;
+  top: -40px;
+}
+
+.ojo__derecho-abierto {
+  position: relative;
+  left: 35px;
+  top: -33px;
+
+  animation: parpadeo 6s;
+  animation-iteration-count: infinite;
+}
+@keyframes parpadeo {
+  0% {
+    opacity: 1;
+  }
+  7% {
+    opacity: 1;
+  }
+  8% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  41% {
+    opacity: 0;
+  }
+  44% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  91% {
+    opacity: 0;
+  }
+  94% {
+    opacity: 1;
+  }
+}
+
+.ojo__abierto-derecho {
+  position: relative;
+  right: 59px;
+  top: -60px;
+}
+
+.ojo__pupila-derecho {
+  position: relative;
+  z-index: 1;
+  top: -63px;
+  right: 110px;
+  animation: pupila 6s;
+  animation-iteration-count: infinite;
+  animation-delay: 0.5s;
+}
+@keyframes pupila {
+  10% {
+    top: -63px;
+    right: 118px;
+  }
+  30% {
+    top: -63px;
+    right: 106px;
+  }
+  40% {
+    top: -63px;
+    right: 118px;
+  }
+  50% {
+    top: -63px;
+    right: 106px;
+  }
+  70% {
+    top: -65px;
+    right: 110px;
+  }
+  98% {
+    top: -65px;
+    right: 110px;
+  }
+  100% {
+    top: -63px;
+    right: 110px;
   }
 }

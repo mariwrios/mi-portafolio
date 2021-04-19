@@ -1,25 +1,30 @@
 {
   "files": {
-    "main.css": "/mi-portafolio/static/css/main.27050dc0.chunk.css",
-    "main.js": "/mi-portafolio/static/js/main.718c55c2.chunk.js",
-    "main.js.map": "/mi-portafolio/static/js/main.718c55c2.chunk.js.map",
+    "main.css": "/mi-portafolio/static/css/main.500bef6b.chunk.css",
+    "main.js": "/mi-portafolio/static/js/main.1c0454a6.chunk.js",
+    "main.js.map": "/mi-portafolio/static/js/main.1c0454a6.chunk.js.map",
     "runtime-main.js": "/mi-portafolio/static/js/runtime-main.ffbd0a72.js",
     "runtime-main.js.map": "/mi-portafolio/static/js/runtime-main.ffbd0a72.js.map",
     "static/js/2.8ba6e2ad.chunk.js": "/mi-portafolio/static/js/2.8ba6e2ad.chunk.js",
     "static/js/2.8ba6e2ad.chunk.js.map": "/mi-portafolio/static/js/2.8ba6e2ad.chunk.js.map",
     "index.html": "/mi-portafolio/index.html",
-    "static/css/main.27050dc0.chunk.css.map": "/mi-portafolio/static/css/main.27050dc0.chunk.css.map",
+    "static/css/main.500bef6b.chunk.css.map": "/mi-portafolio/static/css/main.500bef6b.chunk.css.map",
     "static/js/2.8ba6e2ad.chunk.js.LICENSE.txt": "/mi-portafolio/static/js/2.8ba6e2ad.chunk.js.LICENSE.txt",
+    "static/media/Girl.57c4f361.svg": "/mi-portafolio/static/media/Girl.57c4f361.svg",
     "static/media/nebulosa.da4db7ed.png": "/mi-portafolio/static/media/nebulosa.da4db7ed.png",
+    "static/media/ojoAbierto.0885e3ff.svg": "/mi-portafolio/static/media/ojoAbierto.0885e3ff.svg",
+    "static/media/ojoAbiertoD.5c9c981e.svg": "/mi-portafolio/static/media/ojoAbiertoD.5c9c981e.svg",
+    "static/media/ojoCerrado.5363b75f.svg": "/mi-portafolio/static/media/ojoCerrado.5363b75f.svg",
     "static/media/planeta1.fa4aa7c7.png": "/mi-portafolio/static/media/planeta1.fa4aa7c7.png",
     "static/media/planeta2.769a021f.png": "/mi-portafolio/static/media/planeta2.769a021f.png",
     "static/media/planeta3.f313016f.png": "/mi-portafolio/static/media/planeta3.f313016f.png",
-    "static/media/planeta4.5e846702.png": "/mi-portafolio/static/media/planeta4.5e846702.png"
+    "static/media/planeta4.5e846702.png": "/mi-portafolio/static/media/planeta4.5e846702.png",
+    "static/media/pupila.cdb87b06.svg": "/mi-portafolio/static/media/pupila.cdb87b06.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.ffbd0a72.js",
     "static/js/2.8ba6e2ad.chunk.js",
-    "static/css/main.27050dc0.chunk.css",
-    "static/js/main.718c55c2.chunk.js"
+    "static/css/main.500bef6b.chunk.css",
+    "static/js/main.1c0454a6.chunk.js"
   ]
 }
